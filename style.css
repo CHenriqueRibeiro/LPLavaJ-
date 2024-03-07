@@ -512,7 +512,8 @@ input {
 @media all and (max-width: 991px) {
   .navbar .navbar-collapse {
     overflow: auto;
-    background: rgb(213, 198, 221);
+    background: #5A1299;
+    background: linear-gradient(to left, #5A1299, #cd9ffa);
     color: #fff !important;
     text-align: center;
     padding: 10px 0;
