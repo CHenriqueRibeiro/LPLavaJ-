@@ -7,10 +7,10 @@ body {
   font-size: 14px;
 }
 a {
-  color: #5A1299;
+  color: #5a1299;
 }
 a:hover {
-  color: #5A1299;
+  color: #5a1299;
 }
 h1,
 h2,
@@ -43,7 +43,7 @@ h6 {
   z-index: 1030;
 }
 .navbar .active {
-  color: #5A1299 !important;
+  color: #5a1299 !important;
 }
 .navbar .navbar-brand {
 }
@@ -58,7 +58,7 @@ h6 {
   font-size: 13px;
 }
 .navbar .nav-item a:hover {
-  color: #5A1299;
+  color: #5a1299;
 }
 .navbar .nav-link {
   position: relative;
@@ -66,6 +66,7 @@ h6 {
 }
 .navbar .navbar-toggler {
   cursor: pointer;
+  outline: none !important;
 }
 .navbar .navbar-toggler span {
   color: #fff;
@@ -108,8 +109,8 @@ h6 {
   height: 3rem;
 }
 .banner {
-  background: #5A1299;
-  background: linear-gradient(to left, #5A1299, #cd9ffa);
+  background: #5a1299;
+  background: linear-gradient(to left, #5a1299, #cd9ffa);
   padding: 100px 0px;
   position: relative;
 }
@@ -198,8 +199,8 @@ h6 {
   width: 135px;
   height: 135px;
   border-radius: 100px;
-  background: #5A1299;
-  background: linear-gradient(to left, #5A1299, #cd9ffa);
+  background: #5a1299;
+  background: linear-gradient(to left, #5a1299, #cd9ffa);
   color: #ffffff;
   font-size: 50px;
   line-height: 135px;
@@ -336,8 +337,8 @@ h6 {
   margin-bottom: 0px;
 }
 .testimonial {
-  background: #5A1299;
-  background: linear-gradient(to left, #5A1299, #cd9ffa);
+  background: #5a1299;
+  background: linear-gradient(to left, #5a1299, #cd9ffa);
   padding: 100px 0px;
   position: relative;
 }
@@ -418,6 +419,16 @@ h6 {
 #contact_form .form-input {
   border: 1px solid #e4e4e4;
 }
+.icon-Whatsapp {
+  position: sticky;
+  bottom: 1rem;
+  left: 1.5rem;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 input {
   height: 42px;
   padding: 0 1rem;
@@ -449,15 +460,15 @@ input {
   color: #fff;
   border-radius: 2rem;
   border: 0;
-  background: #5A1299;
-  background: linear-gradient(to left, #5A1299, #cd9ffa);
+  background: #5a1299;
+  background: linear-gradient(to left, #5a1299, #cd9ffa);
   cursor: pointer;
 }
 .contact-info {
   padding: 2rem 2rem 1rem;
   border-radius: 8px;
-  background: #5A1299;
-  background: linear-gradient(to left, #5A1299, #cd9ffa);
+  background: #5a1299;
+  background: linear-gradient(to left, #5a1299, #cd9ffa);
 }
 .contact-item {
   margin: 23px 0px;
@@ -470,8 +481,8 @@ input {
   margin: 0;
 }
 .download {
-  background: #5A1299;
-  background: linear-gradient(to left, #5A1299, #cd9ffa);
+  background: #5a1299;
+  background: linear-gradient(to left, #5a1299, #cd9ffa);
   padding: 100px 0px;
   position: relative;
 }
@@ -500,6 +511,7 @@ input {
   border-radius: 7px;
 }
 .footer-copy {
+  height: 1rem;
   background: #ffffff;
   color: #242424;
   font-size: 13px;
@@ -512,8 +524,8 @@ input {
 @media all and (max-width: 991px) {
   .navbar .navbar-collapse {
     overflow: auto;
-    background: #5A1299;
-    background: linear-gradient(to left, #5A1299, #cd9ffa);
+    background: #5a1299;
+    background: linear-gradient(to left, #5a1299, #cd9ffa);
     color: #fff !important;
     text-align: center;
     padding: 10px 0;
