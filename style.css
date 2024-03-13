@@ -133,13 +133,10 @@ h6 {
 }
 .svg-wave {
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   width: 100%;
 }
-.banner-text {
-  padding-right: 80px;
-  margin: 50px 0px 0px;
-}
+
 .banner-text p {
   margin: 40px 0px;
 }
@@ -423,10 +420,17 @@ h6 {
 }
 .icon-Whatsapp {
   position: sticky;
-  bottom: 3rem;
+  bottom: 2rem;
   left: 1.5rem;
-  width: fit-content;
-  height: fit-content;
+  width: 5em;
+  height: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0dc143;
+  border-radius: 50%;
+}
+.icon-Whatsapp a {
   display: flex;
   justify-content: center;
   align-items: center;
